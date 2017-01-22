@@ -1,14 +1,23 @@
+
+/*
+* vendors
+*/
 @import 'includes/base/vendor/normalize.scss';
 
-@import 'includes/base/font-faces';
+/*
+* base
+*/
+@import 'includes/base/font';
 @import 'includes/base/typography';
 @import 'includes/base/variables/colors';
 @import 'includes/base/variables/fonts';
-@import 'includes/base/media';
-@import 'includes/base/grid';
-@import 'includes/base/core';
 @import 'includes/base/mixins/mixin';
+@import 'includes/base/media';
+@import 'includes/base/core';
+@import 'includes/base/grid';
 @import 'includes/base/utils';
 
-
+/*
+* component
+*/
 // @import 'includes/components/component';
